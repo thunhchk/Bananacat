@@ -6095,7 +6095,7 @@ local v90 = v16.Setting:AddToggle("ToggleBringMob", {
 v90:OnChanged(function(v277)
     _G.BringMob = v277;
 end);
-v17.ToggleBringMob:SetValue(true);
+v17.ToggleBringMob:SetValue(false);
 spawn(function()
     while wait() do
         pcall(function()
